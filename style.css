@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    font-weight: normal;
+    margin-top: 0;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #446688;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #224466;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+ /* Header Styles */
+header {
+    background-color: #446688;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; /* Aligns items to each end of the flex container */
+    align-items: center; /* Aligns items vertically in the flex container */
+}
+
+header .header-content {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+}
+
+header h1 {
+    color: #fff;
+    margin-left: 700px; /* Adjust spacing between 'Pathways' and 'Computer Science' */
+}
+
+a {
+    font-size: 1.5em; /* Reduce font size to align with 'Computer Science' */
+    color: #ffffff;
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+  
+  /* General Information Styles */
+  .General_Info {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin-bottom: 2rem;
+  }
+  
+  /* Why should you Join CS Styles */
+  .Why_Join {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin-bottom: 2rem;
+  }
+  
+  .Why_Join ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Why_Join li::before {
+    content: '\25CF';
+    color: #446688;
+    margin-right: 0.5rem;
+  }
+  
+  /* Benefits of joining Computer Science Styles */
+  .Benefits {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin-bottom: 2rem;
+  }
+  
+  /* Intro To Computer Science Styles */
+  .Intro_CS {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin-bottom: 2rem;
+  }
+  
+  /* AP Computer Science Principles Styles */
+  .Ap_Comp_Sci {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin-bottom: 2rem;
+  }
+  
+  /* FAQ Styles */
+  .FAQ {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin-bottom: 2rem;
+  }
+  
+  .FAQ details {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .FAQ details summary {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .FAQ details p {
+    margin: 0;
+  }

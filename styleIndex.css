@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    font-weight: normal;
+    margin-top: 0;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #446688;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #224466;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: #446688;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Title Styles */
+  .Title {
+    background-color: #446688;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .Title h1 {
+    color: #fff;
+  }
+  
+  /* Industry Title Styles */
+  .Industry_Title {
+    background-color: #446688;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .Industry_Title h1 {
+    color: #fff;
+  }
+  
+  /* Class Styles */
+  .Class {
+    padding: 1rem;
+    background-color: #f9f9f9;
+    margin-bottom: 2rem;
+  }
+  
+  .Class p {
+    margin: 0;
+  }
+  details {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin-bottom: 2rem;
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the details element */
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 0.5rem;}
